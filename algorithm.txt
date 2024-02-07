@@ -1,1 +1,27 @@
-THINK before you code...
+1. Opening statements
+2. Ask the user what type of package they have and set it to packType
+3. Change package to have all lowercase letters (toLowerCase())
+
+4. While package is not equal to "green", "blue", or "purple"
+    a. Output that the users input is invalid
+    b. Ask the user what type of package they have and set it to package
+
+5. If packType is equal to "green"
+    a. Set cost to 49.99
+    b. Ask the user how much GB of data they used and set it to data
+    c. if data is greater than 2GB
+        i. Multiply extra data used (dataUsed-2GB) by 15 and add that to cost
+    d. if cost is greater than 75
+        i. Subtract $20 from the cost
+
+6. Otherwise, if packType is equal to "blue"
+    a. Set the cost to 70
+    b. Ask the user how much GB of data they used and set it to dataUsed
+    c. if dataUsed is greater than 4GB
+       i. Multiply extra data used (dataUsed-4GB) by 10 and add that to cost
+
+7. Otherwise, packType is equal to "purple"
+    a. Set cost to 99.95
+
+8. Output the cost that the user has to pay (use DecimalFormat)
+9. Output ending statements
